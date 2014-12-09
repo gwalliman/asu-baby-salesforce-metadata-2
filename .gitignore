@@ -1,4 +1,10 @@
+#Ignore all IDE specific files
 salesforce.schema
 .project
 /Referenced Packages/
 /.settings/
+/config/
+/deploy/
+asu-baby-salesforce-metadata.sublime-project
+asu-baby-salesforce-metadata.sublime-settings
+asu-baby-salesforce-metadata.sublime-workspace
