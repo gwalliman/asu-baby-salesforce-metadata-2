@@ -1,4 +1,4 @@
 salesforce.schema
-Referenced Packages/*
-.settings/*
 .project
+/Referenced Packages/
+/.settings/
