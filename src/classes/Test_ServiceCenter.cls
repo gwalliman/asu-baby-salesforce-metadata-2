@@ -80,18 +80,17 @@ private class Test_ServiceCenter {
     	setUp();
     	Test.startTest();
     	System.runAs(testUser) {
-    		sc.getNormalPhone();
-    		sc.getRoverPhone();
-    		sc.getHelpBox();
-    		sc.getQuestionsBox();
-    		sc.getMyCasesBox();	
     		System.AssertEquals(true, sc.getNormalPhone());
     		System.AssertEquals(false, sc.getRoverPhone());
     		System.AssertEquals(true, sc.getHelpBox());
     		System.AssertEquals(false, sc.getQuestionsBox());
     		System.AssertEquals(true, sc.getMyCasesBox());
     	}
-    	/*//Test.stopTest();
+    	Test.stopTest();
+    }
+    
+    /*static testMethod void getBoxesACStudent() {
+    	setUp();
     	
     	Account testAccount = new Account();
     	testAccount.Name = 'Jonny Test';
@@ -102,25 +101,20 @@ private class Test_ServiceCenter {
      	testOpp.Name = 'Jonny Test';
      	Date dT = Date.today().adddays(365);
     	testOpp.CloseDate = date.newinstance(dT.year(), dT.month(), dT.day());
-     	testOpp.AccountId = testAccount.Id;
+     	testOpp.AccountId = testContact.AccountId;
      	testOpp.StageName = 'Enrolled';
      	testOpp.Career__c = 'Undergraduate';
      	testOpp.Admitted_Session__c = 'A/C';
      	insert testOpp;
      	
-     	//Test.startTest();
+     	Test.startTest();
      	System.runAs(testUser) {
-    		sc.getNormalPhone();
-    		sc.getRoverPhone();
-    		sc.getHelpBox();
-    		sc.getQuestionsBox();
-    		sc.getMyCasesBox();	
     		System.AssertEquals(true, sc.getNormalPhone());
     		System.AssertEquals(false, sc.getRoverPhone());
     		System.AssertEquals(false, sc.getHelpBox());
     		System.AssertEquals(true, sc.getQuestionsBox());
     		System.AssertEquals(false, sc.getMyCasesBox());
-    	}*/
+    	}
     	Test.stopTest();
     }
   
@@ -133,7 +127,7 @@ private class Test_ServiceCenter {
 	     	System.AssertEquals(confirmRemoveParamTest.getURL(), confirmRemoveParam.getURL());	
     	}
     	Test.stopTest();
-    }
+    }*/
     
     static testMethod void testCaseDetails() {
     	setUp();
