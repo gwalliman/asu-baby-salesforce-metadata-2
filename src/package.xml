@@ -28,14 +28,10 @@
         <members>CommunitiesSelfRegController</members>
         <members>CommunitiesSelfRegControllerTest</members>
         <members>ContactHandler</members>
-        <members>DataCategoryGroupInfo</members>
-        <members>DataCategoryInfo</members>
-        <members>DataCategoryUtil</members>
         <members>ForgotPasswordController</members>
         <members>ForgotPasswordControllerTest</members>
         <members>ITrigger</members>
         <members>LeadHandler</members>
-        <members>MyConsoleController</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
         <members>NavLinks</members>
@@ -50,25 +46,30 @@
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
         <members>TestChangeStateOnDeeplinksUpdate</members>
-        <members>TestController</members>
         <members>TestHelpdeskProfileCallCenter</members>
+        <members>Test_AKBController</members>
         <members>Test_AllPublishedArticlesController</members>
+        <members>Test_AutoCompleteController</members>
         <members>Test_CaseHandler</members>
         <members>Test_CaseInboundEmailHandler</members>
+        <members>Test_CaseReplyTemplateSelector</members>
+        <members>Test_CaseShowAllAttachmentsControllerExt</members>
         <members>Test_CaseUtilities</members>
         <members>Test_ContactHandler</members>
         <members>Test_CreateLeadInterestTrigger</members>
         <members>Test_LeadHandler</members>
+        <members>Test_NavLinks</members>
+        <members>Test_NewCase</members>
         <members>Test_NewLeadEntryController</members>
         <members>Test_NewProspectController</members>
         <members>Test_OpportunityHandler</members>
         <members>Test_SCLaunchController</members>
+        <members>Test_SearchUsers</members>
         <members>Test_ServiceCenter</members>
         <members>Test_TopFiveArticleController</members>
+        <members>Test_VfKeywordSearchContoller</members>
         <members>TopFiveArticleController</members>
         <members>TriggerFactory</members>
-        <members>VfSearchControllerArticles</members>
-        <members>caseSave</members>
         <members>newCase</members>
         <members>pkb_Controller</members>
         <members>pkb_Mobile_ConfigController</members>
