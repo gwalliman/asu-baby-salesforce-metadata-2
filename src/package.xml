@@ -67,9 +67,11 @@
         <members>Test_SearchUsers</members>
         <members>Test_ServiceCenter</members>
         <members>Test_TopFiveArticleController</members>
+        <members>Test_UndergradNewProspectController</members>
         <members>Test_VfKeywordSearchContoller</members>
         <members>TopFiveArticleController</members>
         <members>TriggerFactory</members>
+        <members>UndergradNewProspectController</members>
         <members>newCase</members>
         <members>pkb_Controller</members>
         <members>pkb_Mobile_ConfigController</members>
@@ -147,6 +149,7 @@
         <members>StdExceptionTemplate</members>
         <members>Unauthorized</members>
         <members>UnderConstruction</members>
+        <members>UndergradNewProspect</members>
         <members>akb</members>
         <members>error</members>
         <members>pkb_Home</members>
@@ -194,6 +197,10 @@
         <members>rating_star_gold</members>
         <members>rating_star_gold_outline</members>
         <members>tablesorter_min_js</members>
+    </types>
+    <types>
+        <name>CustomTab</name>
+        <members>New_Undergrad_Prospect</members>
     </types>
     <types>
         <name>ApexTrigger</name>
