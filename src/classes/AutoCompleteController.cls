@@ -3,7 +3,6 @@ global with sharing class AutoCompleteController {
 
     public AutoCompleteController(ServiceCenter controller) { }
     public AutoCompleteController(AKBController controller) { }
-    public AutoCompleteController(VfSearchControllerArticles controller) { }
     public AutoCompleteController(ApexPages.StandardController controller) { }
 
     // Instance fields
