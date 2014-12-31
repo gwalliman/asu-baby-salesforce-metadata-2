@@ -4,6 +4,7 @@ salesforce.schema
 /Referenced Packages/
 /.settings/
 /config/
+/debug/
 /deploy/
 asu-baby-salesforce-metadata.sublime-project
 asu-baby-salesforce-metadata.sublime-settings
