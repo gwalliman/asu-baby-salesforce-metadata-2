@@ -4,6 +4,8 @@ public with sharing class AKBController {
     public FAQ__kav faq {get;set;}
     public Informational__kav info {get;set;}
     public How_To__kav howto {get;set;}
+
+    //some comment Roger added.
    
     // This class decides what type of article is passed to the page and then queries the appropriate category data.
     public AKBController() {   

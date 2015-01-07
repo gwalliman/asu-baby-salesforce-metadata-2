@@ -27,8 +27,7 @@ global class BomgarCreateCaseUtil{
         
         Case c = new Case();
         
-//- Contact Name
-//- Functional Group - (custom field)
+//- Contact Name//- Functional Group - (custom field)
 //- Category/Sub-category (not yet created)
 //- Status - 'New'
 //- Priority - 'Normal'

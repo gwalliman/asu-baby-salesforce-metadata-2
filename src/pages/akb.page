@@ -4,7 +4,7 @@
     action="{!init}" 
     extensions="ServiceCenter,vfKeywordSearchController,AutoCompleteController,NavLinks,newCase" 
     tabStyle="Case">
-<head>
+<head> 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <title>{!article.title}</title>
@@ -158,7 +158,7 @@
                         <a target="_top" href="https://www.asu.edu/" title="Arizona State University">
                             <img src="https://www.asu.edu/asuthemes/4.0-rsp.1/images/logos/asu_logo.png" alt="Arizona State University" height="32" width="203" style="margin-top:14px" title="Arizona State University" />
                         </a>
-                </div><!-- /#asu_logo  -->
+                </div>
         
                 <img src="https://www.asu.edu/asuthemes/4.0-rsp.1/images/logos/asu_logo_white.png" height="32" width="203" id="asu_print_logo" />
     
@@ -179,19 +179,7 @@
                     onclick="this.href = ASUHeader.alterLoginHref(this.href);">SIGN OUT</a>
                     </li>
                 </ul>
-                
-                
-                
-                <!--<h2 class="hidden">Sign In / Sign Out</h2>
-                <ul id="asu_login_module">
-                    <li id="asu_hdr_ssi" class="end">
-                    <a target="_top" href="https://weblogin.asu.edu/cgi-bin/login"
-                    onmouseover="this.href = ASUHeader.alterLoginHref(this.href);"
-                    onfocus="this.href = ASUHeader.alterLoginHref(this.href);"
-                    onclick="this.href = ASUHeader.alterLoginHref(this.href);">Sign In</a>
-                    </li>
-                </ul>-->
-            
+               
             <div id="asu_nav_menu">
                 <h2 class="hidden">Menu</h2>
                 <div id="asu_universal_nav">

@@ -99,16 +99,6 @@ global class CaseInboundEmailHandler
 				  	this.theCase = caseSearch[0];
 				  	if (this.theCase.Status.startsWith('Closed')) {
                         this.theCase.Status = 'Re-Opened';
-                        // Find the original recipient list and look up the associated Case Assignment Rule
-                        // to set the Owner back to the original Queue
-                        system.debug('GRF Initial_Request_Sent_To_Addresses__c: ' + theCase.Initial_Request_Sent_To_Addresses__c);
-                        List<String> originalToList = theCase.Initial_Request_Sent_To_Addresses__c.split(',',0);
-                        system.debug('GRF originalToList: ' + originalToList);
-                        if (originalToList.size() > 0) {
-                            setCaseAssignmentRule(originalToList, new List<String>());
-                            if (queueId != null)
-                                theCase.OwnerId = queueId;
-                        }
 						updateSObject(this.theCase);		  		
 				  	}
 				}
